@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.yellow {
+  background-color: yellow;
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content h1 {
+  color: white;
+  padding: 1rem 0;
+}
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px 10px;
+  width: 50%;
+  font-size: 36px;
+  font-weight: 700;
+  background-color: burlywood;
+  border-radius: 50%;
+}
+.red {
+  flex-basis: 20%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+
+  border-top: 40px solid yellow;
+}
